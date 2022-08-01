@@ -1,0 +1,43 @@
+#exampleInputPassword1:focus,#exampleInputEmail1:focus{ 
+    box-shadow: none; 
+    border: 2px solid #11BC4F;
+}
+
+.LoginButton{
+    color:#11BC4F;
+    background-color: #fff;
+    border: 2px solid #11BC4F;
+    padding: 0.4rem 1.4rem;
+    box-shadow: 0px 0px 5px 0px #000;
+}
+.LoginButton:hover{
+    transition: .6s ease;
+    background-color: #11BC4F;
+    color: #fff;
+    border: 2px solid #fff;
+
+}
+#exampleInputPassword1,#exampleInputEmail1{ 
+    box-shadow: 0px 0px 1px 0px #11BC4F;
+    border: 1px solid #11BC4F;
+}
+.loginForm .custom-border{
+    border: 2px solid #11BC4F!important;
+}
+
+input.ng-invalid{
+    border-left:8px solid red !important;
+}
+
+
+input.ng-valid{
+    border-left:5px solid green !important;
+}
+
+.is-invalid{
+    border:2px solid red !important;
+}
+.error{
+    color: red;
+    font-size: 14px;
+}
